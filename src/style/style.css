@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body{
+  background-color:#000 !important;
+}
+
+/* Custom Style */
+.section-all {
+  padding-top: 60px;
+}
+.section-items {
+  margin: 1rem;
+}
+
+h2.heading-movie {
+  border-left: 8px solid;
+  border-color: yellow;
+  padding-left: 14px;
+}
+
+.scroll-movie {
+  display: flex;
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.box-movie {
+  margin-left: 20px;
+}
+
+.box-movie .poster-image img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 150px;
+  border-radius: 8px;
+}
+
+.box-movie p.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-bottom: 0 !important;
+}
+
+.box-movie p.rating {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.box-actors {
+  margin-left: 20px;
+}
+
+.box-actors .poster-image img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 100px;
+  border-radius: 8px;
+}
+
+.box-actors p.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-bottom: 0 !important;
+}
+
+nav,
+footer div {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
